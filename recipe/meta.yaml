@@ -21,6 +21,9 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools >= 45
+    - setuptools-scm >= 6.0
+    - wheel
   run:
     - cerberus
     - importlib-metadata

@@ -1,5 +1,5 @@
 {% set name = "openamundsen" %}
-{% set version = "0.6.1" %}
+{% set version = "0.6.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openamundsen-{{ version }}.tar.gz
-  sha256: fd24f998a27c97ccc929a1b78826c7ca0f7e7b65fa8128a397464ba7e1569660
+  sha256: 73ef9909952ad85d2591f355c6290f220cd3376099a5e215e59cc99a303a7c07
 
 build:
   number: 0
@@ -21,6 +21,9 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools >=45
+    - setuptools-scm >=6.0
+    - wheel
   run:
     - cerberus
     - importlib-metadata

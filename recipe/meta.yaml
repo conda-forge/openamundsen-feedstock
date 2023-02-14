@@ -1,5 +1,5 @@
 {% set name = "openamundsen" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openamundsen-{{ version }}.tar.gz
-  sha256: 0ffaadcc8c6d97f23f879a038e4366bc6b96b4aebb6c860a33ee5aeee09f6636
+  sha256: df9fcb263de500ef6e5927ee735ca340968d4eed9bd2ffc3c4911c6373bd53fa
 
 build:
   number: 0

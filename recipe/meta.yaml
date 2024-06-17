@@ -47,7 +47,6 @@ test:
     - pip
     - pooch
     - pytest
-    - pytest-lazy-fixture
     - pvlib-python
   source_files:
     - ./tests

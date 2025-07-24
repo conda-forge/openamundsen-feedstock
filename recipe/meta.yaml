@@ -1,5 +1,5 @@
 {% set name = "openamundsen" %}
-{% set version = "1.0.4" %}
+{% set version = "1.1.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/openamundsen-{{ version }}.tar.gz
-  sha256: c5eb2e5a3b45f42ffc28f168794c48fa0df63b4b88e1495e3c318aa5395f79a7
+  sha256: 3a30b1c852d002301ff13be5964681d82c4b076ee88c7e3d64531e85023b0e52
 
 build:
-  number: 1
+  number: 0
   noarch: python
   entry_points:
     - openamundsen = openamundsen.cli:main

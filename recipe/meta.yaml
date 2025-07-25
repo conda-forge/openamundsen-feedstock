@@ -35,6 +35,7 @@ requirements:
     - pandas >=1.1.0
     - pyproj
     - python >={{ python_min }}
+    - pwlf
     - rasterio >=1.1.0
     - ruamel.yaml >=0.15.0
     - scipy
